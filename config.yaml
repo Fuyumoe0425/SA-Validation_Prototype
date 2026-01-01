@@ -1,0 +1,53 @@
+# Research areas and search queries
+research_areas:
+  MARL:
+    keywords: 
+      - "multi-agent reinforcement learning"
+      - "QMIX"
+      - "MADDPG"
+      - "CommNet"
+    max_papers: 200
+  Scheduling:
+    keywords: 
+      - "dynamic task scheduling"
+      - "resource allocation"
+      - "multi-armed bandits"
+    max_papers: 200
+  Uncertainty:
+    keywords: 
+      - "bayesian optimization"
+      - "uncertainty quantification"
+      - "gaussian processes"
+    max_papers: 200
+  Scene_Adaptation:
+    keywords: 
+      - "transfer learning"
+      - "continual learning"
+      - "domain adaptation"
+    max_papers: 200
+  Knowledge_Graph:
+    keywords: 
+      - "knowledge graph reasoning"
+      - "temporal knowledge graph"
+      - "graph embedding"
+    max_papers: 200
+  LLM_Enhancement:
+    keywords: 
+      - "retrieval augmented generation"
+      - "tool augmented LLM"
+      - "ReACT"
+    max_papers: 200
+
+# LLM configuration
+llm:
+  model: "gpt-4o-mini"
+  temperature: 0.3
+  max_tokens: 2000
+
+# Visualization settings
+visualization:
+  citation_network:
+    min_citations: 10
+    layout: spring
+  timeline:
+    years_range: [2020, 2025]
